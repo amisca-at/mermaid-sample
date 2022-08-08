@@ -19,14 +19,14 @@ a simple sample of how the mermaid UML works
 
 ```mermaid
     gitGraph
-       commit
+       commit tag: "v1.0.0"
        branch feat/mermaid-test
        checkout  feat/mermaid-test
        commit
        commit
        checkout main
        merge  feat/mermaid-test
-       commit
+       commit tag: "v1.0.1"
        commit
 ```
 
