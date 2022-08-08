@@ -20,13 +20,12 @@ a simple sample of how the mermaid UML works
 ```mermaid
     gitGraph
        commit
-       commit
-       branch develop
-       checkout develop
+       branch feat/mermaid-test
+       checkout  feat/mermaid-test
        commit
        commit
        checkout main
-       merge develop
+       merge  feat/mermaid-test
        commit
        commit
 ```
